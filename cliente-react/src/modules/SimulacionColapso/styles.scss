@@ -1,0 +1,11 @@
+.modalColapso {
+  z-index: 99999999999999999999999999999;
+}
+
+.red {
+  filter: brightness(50%) sepia(100) saturate(100) hue-rotate(25deg);
+}
+
+.pedido-black {
+  filter: brightness(0%) sepia(100) saturate(100) hue-rotate(25deg);
+}

@@ -1,0 +1,29 @@
+.pedidos-container {
+  padding: 0 300px;
+  padding: auto;
+
+  &__form {
+    margin-bottom: 20px;
+  }
+
+  &__button {
+    margin-top: 20px;
+    margin-left: 13px;
+    margin-right: 13px;
+  }
+
+  .btn-primary {
+    color: #fff;
+    background-color: #984673;
+    border-color: #984673; /*set the color you want here*/
+  }
+  .btn-primary:hover,
+  .btn-primary:focus,
+  .btn-primary:active,
+  .btn-primary.active,
+  .open > .dropdown-toggle.btn-primary {
+    color: #fff;
+    background-color: #984673;
+    border-color: #984673; /*set the color you want here*/
+  }
+}

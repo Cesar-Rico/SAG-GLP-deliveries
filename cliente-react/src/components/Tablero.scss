@@ -1,0 +1,10 @@
+.card-tablero {
+  position: absolute;
+  width: 215px !important;
+  box-shadow: 0 0 1rem 0 rgba(0, 0, 0, 0.2);
+  border-radius: 5px;
+  z-index: 99999999999999;
+  background-color: rgba($color: white, $alpha: 0.9);
+  overflow: hidden;
+  user-select: none;
+}

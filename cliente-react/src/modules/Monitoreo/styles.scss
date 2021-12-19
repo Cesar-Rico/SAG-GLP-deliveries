@@ -1,0 +1,221 @@
+$grid-size: 12px; //ANtes 48px
+$font-size: 4px; //ANtes 12.5
+$width-map: 864px; // 12px * 72 ---- ANTES 48px * 72
+$cell-border-color: #aaaaaa;
+
+.navbar3 {
+  background-color: #36204e !important;
+  padding-left: 52px;
+
+  //position: fixed;
+  width: 100%;
+
+  &__tittle {
+    color: white !important;
+  }
+}
+
+.separator {
+  height: 25px;
+}
+
+.info-button {
+  position: relative;
+  &__img {
+    margin-right: 25px;
+    height: 25px !important;
+    -webkit-filter: invert(1);
+    filter: invert(1);
+  }
+
+  &__card-container {
+    position: relative;
+  }
+
+  &__card {
+    position: absolute;
+    z-index: 10;
+    right: 385px;
+    top: 20px;
+  }
+}
+
+.cell {
+  width: $grid-size;
+  height: $grid-size;
+  padding-left: 1px;
+  border-style: solid;
+  border-color: rgba(255, 255, 255, 0.678);
+  border-right: none;
+  border-top: none;
+  font-size: $font-size;
+  user-select: none;
+  background-color: $cell-border-color;
+
+  &--top {
+    border-right: none;
+    border-top: none;
+    border-bottom-color: #e4e4e4 !important;
+    background-color: white;
+    border-left: none;
+    color: white !important;
+  }
+
+  &--right {
+    border-right: none;
+    border-top: none;
+    border-left-color: #e4e4e4 !important;
+    background-color: white;
+    border-bottom: none;
+    margin-right: $grid-size;
+    color: white !important;
+  }
+
+  &--top-right {
+    border-right: none;
+    border-top: none;
+    background-color: white;
+    border-bottom: none;
+    border-left: none;
+    margin-right: $grid-size;
+    color: white !important;
+  }
+}
+
+.map {
+  position: relative;
+  margin-left: 88px;
+
+  &__container {
+    padding: 20px !important;
+  }
+
+  &__element {
+    cursor: pointer;
+    position: absolute;
+    left: 0px;
+    bottom: 0px;
+    margin-bottom: 2px;
+    margin-left: 2px;
+  }
+
+  &__almacen {
+    z-index: 10000;
+    &__img {
+      height: 20px;
+      margin-left: -16px;
+      margin-bottom: -2px;
+    }
+
+    &__tablero {
+      display: none;
+      position: absolute;
+      bottom: 110px;
+      left: 0px;
+
+      &__tittle {
+        color: black;
+      }
+    }
+  }
+
+  &__precarga {
+    &__img {
+      height: 20px;
+      margin-left: -8.4px;
+      margin-bottom: -2px;
+    }
+  }
+
+  &__pedido {
+    z-index: 10000;
+    display: none;
+    &__img {
+      height: 20px;
+      margin-left: -1px;
+      margin-bottom: -1.5px;
+      filter: brightness(90%) sepia(100) saturate(60) hue-rotate(200deg);
+    }
+
+    &__tablero {
+      z-index: 999999999999999999999999999999;
+      display: none;
+      position: absolute;
+      bottom: 160px;
+
+      &__tittle {
+        //color: rgb(197, 76, 76);
+        color: rgb(18, 94, 192);
+      }
+
+      &__collapse {
+        color: #d51400;
+      }
+    }
+  }
+
+  &__truck {
+    &__img {
+      height: 12px;
+      margin-left: -7.5px;
+      margin-bottom: -20px;
+      cursor: pointer;
+    }
+
+    &__tablero {
+      position: absolute;
+      bottom: 50px;
+
+      &__text {
+        margin-bottom: 0px;
+      }
+
+      &__tittle {
+        &--blue {
+          color: rgb(18, 94, 192);
+        }
+
+        &--red {
+          color: #d51400;
+        }
+
+        &--green {
+          color: #53a607;
+        }
+      }
+    }
+  }
+}
+
+.open {
+  display: block !important;
+}
+
+.close {
+  display: none !important;
+}
+
+.black {
+  color: black;
+}
+
+.white {
+  color: $cell-border-color;
+}
+
+.monButton {
+  width: 60px;
+  margin-left: 40px;
+}
+
+.modalMon {
+  z-index: 99999999999999999999999999;
+}
+
+.modalSimu {
+  z-index: 99999999999999999999999999;
+}
+
+.modal-dialog {
+  //margin-right: 65px !important;
+}

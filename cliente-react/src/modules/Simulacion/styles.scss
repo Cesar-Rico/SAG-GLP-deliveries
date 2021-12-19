@@ -1,0 +1,93 @@
+.simulacion-cards {
+  margin-top: 40px;
+  margin-bottom: 30px;
+}
+
+.card-simulacion {
+  text-align: center;
+  height: 300px;
+}
+
+.card {
+  border-radius: 20px;
+}
+
+.paso {
+  background-color: #36204e;
+  color: white;
+  padding: 3px 10px;
+  border-radius: 25px;
+  margin-bottom: 20px;
+}
+
+.tipos {
+  margin-top: 50px;
+}
+
+.descarga {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.subida {
+  margin-top: 45px;
+}
+
+input[type="file"] {
+  display: none;
+}
+
+.custom-file-upload {
+  border: 1px solid #974572;
+  background-color: #974572;
+  border-radius: 5px;
+  color: white;
+  display: inline-block;
+  padding: 6px 12px;
+  cursor: pointer;
+  margin-bottom: 15px;
+}
+
+.slidecontainer {
+  width: 100%;
+}
+
+.slider {
+  -webkit-appearance: none;
+  margin-top: 20px;
+  width: 80%;
+  height: 15px;
+  border-radius: 5px;
+  background: #d3d3d3;
+  outline: none;
+  //opacity: 0.7;
+  //-webkit-transition: 0.2s;
+  //transition: opacity 0.2s;
+}
+
+.slider:hover {
+  opacity: 1;
+}
+
+.slider::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  background: #984673;
+  cursor: pointer;
+}
+
+.slider::-moz-range-thumb {
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  background: #984673;
+  cursor: pointer;
+}
+
+.form-check-input:checked {
+  background-color: #984673;
+  border-color: #984673;
+}

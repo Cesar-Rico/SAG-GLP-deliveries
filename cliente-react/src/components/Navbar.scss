@@ -1,0 +1,38 @@
+.sidebar {
+  padding-top: 5px;
+  position: fixed !important;
+  background-color: black !important;
+
+  .__text {
+    text-decoration: none;
+  }
+
+  z-index: 999999999 !important;
+}
+
+.hora {
+  padding-left: 40px;
+
+  &--moment {
+    padding-left: 0px;
+    //width: 140px;
+    color: white;
+  }
+}
+
+.sidenav---icon-bar---u1f02 {
+  display: none !important;
+}
+
+.sidenav---sidenav-toggle---1KRjR {
+  //z-index: 999999999999999999;
+}
+
+.logoImagen {
+  position: fixed;
+  z-index: 99999999999;
+  height: 40px;
+  left: 11px;
+  top: 15px;
+  pointer-events: none;
+}

@@ -1,0 +1,59 @@
+.card-info {
+  position: absolute;
+  width: 270px;
+  height: 340px;
+  left: 70px;
+  box-shadow: 0 0 1rem 0 rgba(0, 0, 0, 0.2);
+  border-radius: 5px;
+  z-index: 1;
+  background-color: rgba($color: white, $alpha: 0.9);
+  overflow: hidden;
+  user-select: none;
+
+  &__tittle {
+  }
+
+  &__text {
+    padding-top: 6px;
+    font-size: 12px;
+  }
+
+  &__img {
+    height: 20px;
+
+    &--legend {
+      padding-left: 7px;
+    }
+  }
+
+  &__img-bloqueo {
+    height: 3px;
+    width: 24px;
+
+    &--legend {
+      padding-left: 2px;
+    }
+  }
+
+  &__row {
+    margin-bottom: 12px;
+    height: 30px;
+  }
+}
+
+.truck {
+  &--blue {
+    filter: brightness(30%) sepia(100) saturate(70) hue-rotate(200deg);
+  }
+
+  &--green {
+    filter: brightness(60%) sepia(40) saturate(60) hue-rotate(110deg);
+  }
+
+  &--red {
+    filter: brightness(50%) sepia(100) saturate(100) hue-rotate(25deg);
+  }
+}
+
+.cordButton {
+}
