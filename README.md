@@ -1,5 +1,5 @@
 # SAG-GLP-deliveries
-System for monitoring, distribution and simulation of deliveries of LPG orders under a previously defined fleet.
+System for monitoring, distribution and simulation of LPG orders deliveries under a previously defined fleet.
 
 Screenshots:
 
